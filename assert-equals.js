@@ -1,9 +1,9 @@
-function assertEquals (message, expected, actual) {
+function assertEquals (expected, actual, message) {
   try {
     deepEquals(expected, actual);
   }
   catch (failure) {
-    throw (`${message} ${failure.message}`);   
+    throw (`${message ? message + ' ' : ''}${failure.message}`);   
   }
 };
 
