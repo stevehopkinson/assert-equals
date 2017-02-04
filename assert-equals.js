@@ -3,7 +3,7 @@ function assertEquals (message, expected, actual) {
     deepEquals(expected, actual);
   }
   catch (failure) {
-    throw ({message: `${message} ${failure.message}`});   
+    throw (`${message} ${failure.message}`);   
   }
 };
 
