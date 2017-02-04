@@ -1,2 +1,2 @@
-# assert-equals
-A lightweight assert-equals function for testing
+# Assert Equals
+A lightweight assert-equals function for use in inline testing.
